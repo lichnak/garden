@@ -24,6 +24,7 @@ const testResults = {
     command: [],
     completedAt: now,
     log: "bla bla",
+    errorLog: "",
     outputs: {
       log: "bla bla",
     },
@@ -100,6 +101,7 @@ describe("GetTestResultCommand", () => {
       command: [],
       completedAt: now,
       log: "bla bla",
+      errorLog: "",
       outputs: {
         log: "bla bla",
       },
@@ -139,6 +141,7 @@ describe("GetTestResultCommand", () => {
       command: [],
       completedAt: now,
       log: "bla bla",
+      errorLog: "",
       outputs: {
         log: "bla bla",
       },

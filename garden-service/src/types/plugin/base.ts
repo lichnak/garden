@@ -81,6 +81,7 @@ export interface RunResult {
   startedAt: Date
   completedAt: Date
   log: string
+  errorLog?: string
   // DEPRECATED
   output?: string
 }
@@ -110,6 +111,11 @@ export const runResultSchema = joi.object().keys({
     .allow("")
     .default("")
     .description("The output log from the run."),
+  errorLog: joi
+    .string()
+    .allow("")
+    .default("")
+    .description("The error log from the run."),
   output: joi
     .string()
     .allow("")

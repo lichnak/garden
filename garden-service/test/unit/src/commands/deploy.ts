@@ -27,6 +27,7 @@ const placeholderTaskResult = (moduleName: string, taskName: string, command: st
   startedAt: placeholderTimestamp,
   completedAt: placeholderTimestamp,
   log: "out",
+  errorLog: "",
   outputs: {
     log: "out",
   },

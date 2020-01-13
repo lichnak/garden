@@ -22,6 +22,7 @@ describe("RunTaskCommand", () => {
       command: ["echo", "OK"],
       moduleName: "module-a",
       log: "echo OK",
+      errorLog: "",
       outputs: {
         log: "echo OK",
       },

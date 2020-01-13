@@ -244,6 +244,7 @@ describe("ActionRouter", () => {
           command,
           completedAt: now,
           log: "bla bla",
+          errorLog: "",
           success: true,
           startedAt: now,
           version: module.version.versionString,
@@ -275,6 +276,7 @@ describe("ActionRouter", () => {
           command: [],
           completedAt: now,
           log: "bla bla",
+          errorLog: "",
           outputs: {
             log: "bla bla",
           },
@@ -352,6 +354,7 @@ describe("ActionRouter", () => {
           command: [],
           completedAt: now,
           log: "bla bla",
+          errorLog: "",
           outputs: {
             log: "bla bla",
           },
@@ -484,6 +487,7 @@ describe("ActionRouter", () => {
           command: ["foo"],
           completedAt: now,
           log: "bla bla",
+          errorLog: "",
           success: true,
           startedAt: now,
           version: service.module.version.versionString,
@@ -502,6 +506,7 @@ describe("ActionRouter", () => {
         command: ["foo"],
         completedAt: now,
         log: "bla bla",
+        errorLog: "",
         outputs: {
           base: "ok",
           foo: "ok",

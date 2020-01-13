@@ -25,6 +25,7 @@ const taskResults = {
     command: ["foo"],
     completedAt: now,
     log: "bla bla",
+    errorLog: "",
     outputs: {
       log: "bla bla",
     },
@@ -101,6 +102,7 @@ describe("GetTaskResultCommand", () => {
       command: ["foo"],
       completedAt: now,
       log: "bla bla",
+      errorLog: "",
       outputs: { log: "bla bla" },
       success: true,
       startedAt: now,
@@ -138,6 +140,7 @@ describe("GetTaskResultCommand", () => {
       command: ["foo"],
       completedAt: now,
       log: "bla bla",
+      errorLog: "",
       outputs: { log: "bla bla" },
       success: true,
       startedAt: now,

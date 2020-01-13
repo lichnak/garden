@@ -377,6 +377,7 @@ export class PodRunner extends PodRunnerParams {
       startedAt,
       completedAt: new Date(),
       log: res.output,
+      errorLog: res.stderr,
       success: res.code === 0,
     }
   }

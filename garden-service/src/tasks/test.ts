@@ -178,7 +178,7 @@ export class TestTask extends BaseTask {
         msg: chalk.red(`Failed! (took ${log.getDuration(1)} sec)`),
         append: true,
       })
-      throw new TestError(result.log)
+      throw new TestError(result.log + result.errorLog)
     }
 
     return result

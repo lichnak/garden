@@ -46,6 +46,11 @@ export const taskResultSchema = joi.object().keys({
     .required()
     .allow("")
     .description("The output log from the run."),
+  errorLog: joi
+    .string()
+    .default("")
+    .allow("")
+    .description("The error log from the run."),
   output: joi
     .string()
     .allow("")
