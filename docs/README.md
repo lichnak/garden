@@ -53,3 +53,4 @@
     * [Terraform](./reference/providers/terraform.md)
   * [Template Strings Reference](./reference/template-strings.md)
 * [Troubleshooting](./troubleshooting.md)
+* [Telemetry](./telemetry.md)
